@@ -1,0 +1,13 @@
+
+
+I file della directory root ovvero questi in cui si sta leggendo il file in questione sono script per il login/logout/errore login/cambio password/controllo login / e altre configurazioni.
+
+Una volta loggati si è rediretti nella cartella members/index.php.
+[questi parametri si possono cambiare anke dopo su authconfig.php però è bene ricordarsi di cambiare quindi il percorso dello style css che è indicato in members/mysql.php ]
+
+Dentro members ci sono solo script che riguardano la gestione dei curriculum.
+Sono rinominati con prefisso di permesso da me indicato come a= admin s=supermod m=membro.
+Se si è rediretti in una pagina e non si è loggati si è rediretti al login.
+Se non si ha il permesso di vedere la pagina viene scritto.(anke se non ci sono link diretti per quelle pagine).
+
+++++++++++++++++++++++++++++++++++++++++++++++
